@@ -1,0 +1,20 @@
+{
+    "name": "eliezer/phprest_cielo",
+    "description": "A simple API REST with PHP",
+    "authors": [
+        {
+            "name": "Eliezer Martins",
+            "email": "eliezercostam@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^2.4",
+        "guzzlehttp/psr7": "^1.4",
+        "developercielo/api-3.0-php": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/"
+        }
+    }
+}
