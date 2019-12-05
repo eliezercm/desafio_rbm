@@ -7,7 +7,7 @@ Navigate to the project directory and then:
 composer install
 ```
 
-Edit `.env` file with your correct database credentials
+Edit `.env` file with your correct MySQL database credentials
 
 ```
 DB_HOST=localhost
